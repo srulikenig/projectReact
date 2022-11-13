@@ -1,0 +1,11 @@
+table {
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .todo tr:hover {background-color: rgb(54, 240, 215);}
