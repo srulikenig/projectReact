@@ -26,7 +26,7 @@ function SinglePost() {
     return (
         <React.Fragment>
             <div style={{ padding: '0 6px 0 ', textAlign: 'justify' }}>{post.body}</div>
-            <Badge badgeContent={5} color="secondary" style={{ margin: '15px 0' }}>
+            <Badge badgeContent={!comm ? 5:0} color="secondary" style={{ margin: '15px 0' }}>
                 <Button
                     variant={comm ? "outlined" : 'contained'}
                     onClick={() => setComm(!comm)}>

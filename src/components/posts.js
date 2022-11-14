@@ -31,7 +31,7 @@ export default function Posts() {
         console.log(id);
     }
     return (
-        <Grid container spacing={0} columns={9} style={{border:'1px solid black', ...style}}>
+        <Grid container spacing={0} columns={9} style={{ ...style}}>
             <Grid xs={3} sx={style} style={{height:'100%', ...style}} height={'100%'}>
                 <List  component="nav" aria-label="mailbox folders">
                     {posts && posts.map((item, idx) => <>
