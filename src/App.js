@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { BrowserRouter, Route, Routes, useNavigate, useParams } from 'react-router-dom';
 import Albums from './components/albums';
 import Home from './components/home';
-import Info from './components/info';
+
 import SpanningTable from './components/infoTable';
 
 
